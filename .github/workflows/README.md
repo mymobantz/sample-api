@@ -26,14 +26,14 @@ This instructions shows how to pull and run the docker image locally from GitHub
 Use the docker pull command to download the image from GHCR
 
 ```bash
-docker pull ghcr.io/mymobantz/fastapi:latest
+docker pull ghcr.io/mymobantz/sample-api:latest
 ```
 
 - **Run the Docker Image**
 Once the image is pulled, you can run it using the docker run command. Adjust the port mapping (-p 3000:3000) as needed based on your application's requirements.
 
 ```bash 
-docker run -d -p 3000:3000 ghcr.io/mymobantz/fastapi:latest
+docker run -d -p 3000:3000 ghcr.io/mymobantz/sample-api:latest
 ```
 
 - **Access the Application**
